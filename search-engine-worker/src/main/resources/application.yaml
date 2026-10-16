@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: search-engine-worker
+  mongodb:
+    database: prefixdb
+    port: '27017'
+    username: user
+    password: pass
+    host: localhost
+    authentication-database: admin
